@@ -1,0 +1,136 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.header {
+    height: 80px;
+    background-color: var(--gg-green);
+    font-family: var(--font-p);
+}
+
+.responsive {
+    margin: auto;
+    max-width: 1200px;
+    height: auto;
+    padding: 25px;
+
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    padding-top: 23px;
+    padding-left: 15px;
+}
+
+.Quintessens {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color: var(--gg-white);
+}
+
+.testje {
+    height: 800px;
+    padding: 0;
+
+    background: url(bg-white.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+.cta-buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cta {}
+
+header {}
+
+.logo-header {
+    text-align: center;
+    height: 100px;
+}
+
+.header-content {
+    padding-top: 240px;
+}
+
+.cta {
+    border-radius: 10px;
+    font-family: var(--font-p);
+    text-decoration: none;
+    margin: 5px;
+}
+
+.cta.p {
+    padding: 15px 30px 15px 30px;
+    background-color: var(--gg-yellow);
+    color: var(--gg-white);
+}
+
+.cta.s {
+    padding: 12px 27px 12px 27px;
+    background-color: none;
+    color: var(--gg-blue);
+    border: solid 3px var(--gg-blue);
+}
+
+.cta.p.nav {
+    float: right;
+    margin-top: -43px;
+    margin-right: 15px;
+}
+
+.headline {
+    color: var(--gg-green);
+    font-size: 50px;
+    font-family: var(--font-p);
+    text-align: center;
+    margin: 0;
+
+}
+
+.sub-headline {
+    text-align: center;
+    color: var(--gg-blue);
+    font-family: var(--font-s);
+    font-size: 30px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.waarde-item{
+    display: table;
+}
+
+.waarde-img{
+    display: table;
+}
+
+.waarde-tekst{
+    display: table;
+    font-family: var(--font-p);
+}
+
+@media only screen and (max-width: 600px) {
+    .groenengoed{
+        display: none;
+    }
+  }
+
+.groenengoed{
+    font-family: var(--font-s); opacity: 0.8;
+}
