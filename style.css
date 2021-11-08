@@ -162,7 +162,7 @@ header {}
 .waarde-item {
     display: table;
     width: auto;
-    background-color: var(--gg-green);
+    background-color: var(--gg-blue);
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
     margin: 10px;
