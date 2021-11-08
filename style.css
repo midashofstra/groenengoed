@@ -204,6 +204,7 @@ header {}
 .h3-title-probleem{
     color: #EB4D3D;
     font-size: 30px;
+    margin-bottom: 15px;
 }
 
 .p-title-probleem{
@@ -213,5 +214,7 @@ header {}
     font-size: 17px;
     line-height: 1.5;
     font-weight: 400;
-    letter-spacing: -.022em;
+    letter-spacing: .02em;
+    color: #444444;
+
 }
