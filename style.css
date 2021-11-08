@@ -1,12 +1,21 @@
 html {
     padding: 0;
     margin: 0;
+    background-color: var(--gg-green);
 }
 
 body {
     padding: 0;
     margin: 0;
     background-color: #f2f2f2;
+}
+
+h3 {
+    font-family: var(--font-p);
+}
+
+.div10{
+    height: 10px;
 }
 
 .header {
@@ -27,7 +36,7 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 23px;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .Quintessens {
@@ -84,7 +93,8 @@ header {}
 .cta.s {
     padding: 12px 27px 12px 27px;
     background-color: none;
-    color: var(--gg-blue);
+    color: var(--gg-white);
+    background-color: var(--gg-blue);
     border: solid 3px var(--gg-blue);
 }
 
@@ -112,25 +122,96 @@ header {}
     margin-top: 10px;
 }
 
-.waarde-item{
-    display: table;
-}
 
-.waarde-img{
-    display: table;
-}
 
-.waarde-tekst{
-    display: table;
+.waarde {
     font-family: var(--font-p);
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 46.875 rem;
+    margin: 0 px auto;
+    gap: 0.625 rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    margin-top: -40px;
+}
+
+
+
+.waarde-img {
+    width: 40px;
+    height: 40px;
+}
+
+.waarde-img-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+
+.waarde-tekst {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    padding-left: 10px;
+    color: white;
+}
+
+.waarde-item {
+    display: table;
+    width: auto;
+    background-color: var(--gg-green);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    
 }
 
 @media only screen and (max-width: 600px) {
-    .groenengoed{
+    .groenengoed {
         display: none;
     }
-  }
+}
 
-.groenengoed{
-    font-family: var(--font-s); opacity: 0.8;
+.groenengoed {
+    font-family: var(--font-s);
+    opacity: 0.8;
+}
+
+
+
+.img-wrap {
+    text-align: center;
+}
+
+.probleem{
+    padding: 50px;
+    border-radius: 25px;
+    text-align: center;
+    /*
+    border: solid 3px #EB4D3D;
+    */
+    background-color: #FBDBD8;
+}
+
+.probleem-img {
+    width: 150px;
+    height: 150px;
+}
+
+.h3-title-probleem{
+    color: #EB4D3D;
+    font-size: 30px;
+}
+
+.p-title-probleem{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: -.022em;
 }
