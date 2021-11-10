@@ -10,11 +10,15 @@ body {
     background-color: #f2f2f2;
 }
 
+a {
+    text-decoration: none;
+}
+
 h3 {
     font-family: var(--font-p);
 }
 
-.div10{
+.div10 {
     height: 10px;
 }
 
@@ -78,10 +82,11 @@ header {}
 }
 
 .cta {
-    border-radius: 10px;
+    border-radius: 30px;
     font-family: var(--font-p);
     text-decoration: none;
     margin: 5px;
+    font-size: 20px;
 }
 
 .cta.p {
@@ -100,7 +105,7 @@ header {}
 
 .cta.p.nav {
     float: right;
-    margin-top: -43px;
+    margin-top: -45px;
     margin-right: 15px;
 }
 
@@ -141,8 +146,8 @@ header {}
 
 
 .waarde-img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 .waarde-img-wrap {
@@ -166,7 +171,7 @@ header {}
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
     margin: 10px;
-    
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -186,7 +191,7 @@ header {}
     text-align: center;
 }
 
-.probleem{
+.probleem {
     padding: 50px;
     border-radius: 25px;
     text-align: center;
@@ -196,18 +201,20 @@ header {}
     background-color: #FBDBD8;
 }
 
+
+
 .probleem-img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
-.h3-title-probleem{
+.h3-title-probleem {
     color: #EB4D3D;
     font-size: 30px;
     margin-bottom: 15px;
 }
 
-.p-title-probleem{
+.p-title-probleem {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     font-weight: 500;
@@ -217,4 +224,101 @@ header {}
     letter-spacing: .02em;
     color: #444444;
 
+}
+
+.over {
+    background-color: white;
+    padding: 50px;
+    border-radius: 25px;
+    display: flex;
+}
+
+
+.over-image-wrap {
+
+    width: 50%;
+}
+
+.over-image {
+    border-radius: 25px;
+    width: 100%;
+}
+
+.over-content {
+    padding-left: 50px;
+    width: 50%;
+    float: right;
+}
+
+.over-naam {
+    font-family: var(--font-p);
+    font-size: 30px;
+    color: var(--gg-green);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.over-tekst {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: .02em;
+    color: #444444;
+}
+
+.plan {
+    background-color: #EBB119;
+    padding: 50px;
+    border-radius: 25px;
+    
+}
+
+.stappen{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.stap {
+    text-align: center;
+    font-family: var(--font-p);
+    font-size: 30px;
+    color: white;
+}
+
+.hoe {
+    background-color: #80A6B3;
+    padding: 50px;
+    border-radius: 25px;
+    color: white;
+    font-family: var(--font-p);
+    
+}
+
+.tr-cta{
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 25px;
+    color: var(--gg-green);
+    font-family: var(--font-p);
+    border: solid 3px var(--gg-green);
+    text-align: center;
+}
+
+footer{
+    background-color: var(--gg-green);
+}
+
+.footer-content{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: var(--font-p);
+    color: var(--gg-white);
+}
+
+.footer-logo{
+    width: 30px;
+    height: auto;
 }
