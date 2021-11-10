@@ -322,3 +322,33 @@ footer{
     width: 30px;
     height: auto;
 }
+
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+
+    border: solid 3px var(--gg-green);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+input[type=email]:focus {
+    border: solid 3px var(--gg-green);
+}
+
+input[type=submit] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: var(--gg-green);
+    color: var(--gg-white);
+    font-family: var(--font-p);
+    border-radius: 10px;
+    font-size: 16px;
+}
