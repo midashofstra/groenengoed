@@ -14,6 +14,11 @@ a {
     text-decoration: none;
 }
 
+h1 {
+
+    margin: 0;
+}
+
 h3 {
     font-family: var(--font-p);
 }
@@ -89,6 +94,10 @@ header {}
     font-size: 20px;
 }
 
+.cta:hover {
+
+}
+
 .cta.p {
     padding: 15px 30px 15px 30px;
     background-color: var(--gg-yellow);
@@ -96,11 +105,11 @@ header {}
 }
 
 .cta.s {
-    padding: 12px 27px 12px 27px;
+    padding: 11px 26px 11px 26px;
     background-color: none;
-    color: var(--gg-white);
-    background-color: var(--gg-blue);
-    border: solid 3px var(--gg-blue);
+    color: var(--gg-blue);
+    background-color: none;
+    border: solid 4px var(--gg-blue);
 }
 
 .cta.p.nav {
