@@ -190,7 +190,7 @@
             <h1 style="margin: 0;">Gratis e-book, podcast en webinar</h1>
             <p>Leer hoe je zelf duurzaam kan investeren met rendement</p>
 
-            <form action="">
+            <form  method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
 
                 <label for="">Email</label>
                 <br>
@@ -199,6 +199,24 @@
 
                 <input type="submit" name="" id="" value="Ontvang">
             </form>
+
+            <?php
+
+            if ($_SERVER["REQUEST_METHOD"] == "POST")  {
+        
+                $email = $_POST['email'];
+
+                $to = "midashofstra@gmail.com";
+                $subject = "Formulier bericht";
+                $message = "$email\n\nHeeft zich aangemeld";
+
+                mail($to, $subject, $message);
+
+                echo "Verstuurd";
+
+            }
+
+            ?>
 
         </div>
 
