@@ -94,9 +94,7 @@ header {}
     font-size: 20px;
 }
 
-.cta:hover {
-
-}
+.cta:hover {}
 
 .cta.p {
     padding: 15px 30px 15px 30px;
@@ -282,10 +280,10 @@ header {}
     background-color: #EBB119;
     padding: 50px;
     border-radius: 25px;
-    
+
 }
 
-.stappen{
+.stappen {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -303,10 +301,10 @@ header {}
     border-radius: 25px;
     color: white;
     font-family: var(--font-p);
-    
+
 }
 
-.tr-cta{
+.tr-cta {
     background-color: #ffffff;
     padding: 50px;
     border-radius: 25px;
@@ -316,18 +314,18 @@ header {}
     text-align: center;
 }
 
-footer{
+footer {
     background-color: var(--gg-green);
 }
 
-.footer-content{
+.footer-content {
     padding-top: 25px;
     padding-bottom: 25px;
     font-family: var(--font-p);
     color: var(--gg-white);
 }
 
-.footer-logo{
+.footer-logo {
     width: 30px;
     height: auto;
 }
@@ -360,4 +358,72 @@ input[type=submit] {
     font-family: var(--font-p);
     border-radius: 10px;
     font-size: 16px;
+}
+
+.producten {
+    background-color: var(--gg-white);
+    padding: 50px;
+    border-radius: 25px;
+    color: var(--gg-green);
+    font-family: var(--font-p);
+    padding: 50px;
+    border-radius: 25px;
+
+}
+
+.producten-wrap {
+    display: flex;
+
+}
+
+.product {
+    flex: 1;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #E7EFED;
+    transition: all .2s ease;
+}
+
+.div20-h{
+    width: 20px;
+}
+
+.product.tja{
+    border: solid 3px var(--gg-green);
+}
+
+.product.video{
+    opacity: 0.5;
+}
+
+.product-image{
+    width: 100%;
+}
+
+.product:hover {
+    transform: scale(1.03);
+    transition: all .2s ease;
+}
+
+.product-title{
+    font-family: var(--font-p);
+    font-size: 25px;
+    color: var(--gg-green);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-tekst{
+    font-family: var(--font-p);
+    padding: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: .02em;
+    color: #444444;
+}
+
+.product-image{
+    border-radius: 10px;
 }
