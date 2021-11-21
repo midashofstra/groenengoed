@@ -2,12 +2,14 @@ html {
     padding: 0;
     margin: 0;
     background-color: var(--gg-green);
+    scroll-behavior: smooth;
 }
 
 body {
     padding: 0;
     margin: 0;
     background-color: #f2f2f2;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -92,6 +94,7 @@ header {}
     text-decoration: none;
     margin: 5px;
     font-size: 20px;
+
 }
 
 .cta:hover {}
@@ -295,6 +298,17 @@ header {}
     color: white;
 }
 
+.stap-title{
+    padding: 0;
+    margin: 0;
+}
+
+.stap-img{
+    width: 25%;
+    height: auto;
+    opacity: 0.75;
+}
+
 .hoe {
     background-color: #80A6B3;
     padding: 50px;
@@ -308,10 +322,11 @@ header {}
     background-color: #ffffff;
     padding: 50px;
     border-radius: 25px;
-    color: var(--gg-green);
+    color: var(--gg-white);
     font-family: var(--font-p);
-    border: solid 3px var(--gg-green);
     text-align: center;
+
+    background-color: var(--gg-green);
 }
 
 footer {
@@ -330,6 +345,10 @@ footer {
     height: auto;
 }
 
+input{
+    border: none;
+}
+
 input[type=email] {
     width: 50%;
     padding: 12px 20px;
@@ -337,27 +356,50 @@ input[type=email] {
     box-sizing: border-box;
     border: none;
 
-    border: solid 3px var(--gg-green);
-    border-radius: 10px;
+    border-radius: 25px;
     text-align: center;
     font-size: 16px;
+    margin-bottom: 15px;
+
+    color: var(--gg-green);
+    font-weight: 700;
+    font-size: 20px;
 }
 
 input[type=email]:focus {
-    border: solid 3px var(--gg-green);
+    outline: none !important;
 }
 
 input[type=submit] {
-    width: 20%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    background-color: var(--gg-green);
+
     color: var(--gg-white);
     font-family: var(--font-p);
-    border-radius: 10px;
-    font-size: 16px;
+    border-radius: 30px;
+    font-size: 20px;
+
+    padding: 11px 26px 11px 26px;
+    background-color: var(--gg-green);
+    color: var(--gg-white);
+    background-color: none;
+    border: solid 4px var(--gg-white);
+    
+}
+
+input[type=submit]:hover {
+
+
+
+    padding: 11px 26px 11px 26px;
+    background-color: var(--gg-white);
+    color: var(--gg-green);
+
+    background-color: none;
+    border: solid 4px var(--gg-white);
+    
+}
+
+.input-label{
+    font-size: 20px;
 }
 
 .producten {
@@ -393,7 +435,7 @@ input[type=submit] {
 }
 
 .product.video{
-    opacity: 0.5;
+    opacity: 0.5 !important;
 }
 
 .product-image{
