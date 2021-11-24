@@ -361,7 +361,7 @@ input[type=email] {
     font-size: 16px;
     margin-bottom: 15px;
 
-    color: var(--gg-green);
+    color: #333;
     font-weight: 700;
     font-size: 20px;
 }
@@ -382,6 +382,7 @@ input[type=submit] {
     color: var(--gg-white);
     background-color: none;
     border: solid 4px var(--gg-white);
+    transition: all .2s ease
     
 }
 
@@ -395,6 +396,8 @@ input[type=submit]:hover {
 
     background-color: none;
     border: solid 4px var(--gg-white);
+
+    transition: all .2s ease;
     
 }
 
@@ -443,8 +446,8 @@ input[type=submit]:hover {
 }
 
 .product:hover {
-    transform: scale(1.03);
-    transition: all .2s ease;
+    transform: scale(1.03) !important;
+    transition: all .2s ease !important;
 }
 
 .product-title{
@@ -473,3 +476,14 @@ input[type=submit]:hover {
 #productenMore{
     display: none;
 }   
+
+
+.success {
+    background-color: var(--gg-blue);
+    padding: 50px;
+    border-radius: 25px;
+    color: white;
+    font-family: var(--font-p);
+    text-align: center;
+
+}
